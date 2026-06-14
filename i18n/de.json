@@ -5,10 +5,8 @@
   "lang_en": "Englisch",
   "lang_system": "Systemsprache",
   "restart_hint": "Bitte neu starten.",
-
   "err_docker_not_found": "docker nicht gefunden. Ist Docker installiert?",
   "err_timeout": "Timeout beim Ausführen des Befehls.",
-
   "status_docker_not_found": "Docker nicht gefunden.",
   "status_refreshing": "Aktualisiere...",
   "status_error": "Fehler: {err}",
@@ -25,7 +23,6 @@
   "status_image_pulled": "{image} gepullt",
   "status_pulling": "Pulle {image}...",
   "status_docker_installed": "Docker installiert.",
-
   "dlg_install_title": "Docker installieren",
   "btn_install": "Installieren",
   "lbl_method": "Methode:",
@@ -39,7 +36,6 @@
   "install_success": "\n✓ Docker erfolgreich installiert!\n",
   "install_failed": "\n✗ Installation fehlgeschlagen.\n",
   "install_error": "Fehler: {e}\n",
-
   "dlg_add_title": "Container hinzufügen",
   "btn_start_action": "Starten",
   "placeholder_image": "z.B. nginx:alpine",
@@ -57,12 +53,10 @@
   "restart_always": "always",
   "restart_unless_stopped": "unless-stopped",
   "restart_on_failure": "on-failure",
-
   "dlg_pull_title": "Image pullen",
   "btn_pull_action": "Pullen",
   "lbl_image_name": "Image-Name:",
   "placeholder_pull_image": "z.B. cthulhudave/restreamer:latest",
-
   "btn_add": "＋ Hinzufügen",
   "btn_pull": "⬇ Image pullen",
   "btn_install_docker": "⚙ Docker installieren",
@@ -81,5 +75,7 @@
   "log_label": "Logs",
   "btn_load": "Laden",
   "confirm_remove_title": "\"{name}\" entfernen?",
-  "confirm_remove_text": "Der Container wird gelöscht. Image und Volumes bleiben erhalten."
+  "confirm_remove_text": "Der Container wird gelöscht. Image und Volumes bleiben erhalten.",
+  "tooltip_about": "Über Docktor",
+  "about_comments": "Docker Desktop at home.\n\nTeil der GTK3-Toolbox (NoCoderGHG)."
 }
